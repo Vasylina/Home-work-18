@@ -20,11 +20,11 @@ var myObj = {
   last: 'Last Name'
 }
 
-console.log ('myNum', myNum)
-console.log ('myStr', myStr)
-console.log ('myBool', myBool)
-console.log ('myArr', myArr)
-console.log ('myObj', myObj)
+console.log ('myNum:', myNum)
+console.log ('myStr:', myStr)
+console.log ('myBool:', myBool)
+console.log ('myArr:', myArr)
+console.log ('myObj:', myObj)
 
 
 /*
@@ -38,7 +38,7 @@ console.log ('myObj', myObj)
 var myNum = 10;
 var decimal2 = myNum.toFixed(2);
 
-console.log ('decimal2', decimal2)
+console.log ('decimal2:', decimal2)
 
 /* 
  * #3
@@ -49,5 +49,5 @@ console.log ('decimal2', decimal2)
 
 // myBigInt
 var myBigInt = 123n
-myBigInt = myBigInt + 1
-console.log ('myBigInt', myBigInt)
+myBigInt = myBigInt + 1n
+console.log ('myBigInt:', myBigInt)
